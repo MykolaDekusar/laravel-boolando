@@ -14,5 +14,26 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $header_icons = [
+        'source1' => [
+            'icon' => "https://img.icons8.com/forma-thin/24/user.png",
+            'alt' => "User",
+        ],
+        'source2' => [
+            'icon' =>
+            "https://img.icons8.com/ios/50/like--v1.png",
+            'alt' => "Heart",
+        ],
+        'source3' => [
+            'icon' =>
+            "https://img.icons8.com/ios-filled/50/shopping-bag.png",
+            'alt' =>
+            "Shopping-bag",
+        ]
+    ];
+    $data = [
+        'products' => config('products'),
+        'header_icons' => $header_icons,
+    ];
+    return view('home', $data);
 })->name('Home');

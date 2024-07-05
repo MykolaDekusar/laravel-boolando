@@ -11,12 +11,7 @@
 
 <body>
     @include('shared.header')
-    <main>
-        <h1>
-        Template
-    </h1>
-    </main>
-    
+    @yield('main')
     @include('shared.footer')
 
 </body>
