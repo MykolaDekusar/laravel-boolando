@@ -4,9 +4,9 @@
                 <div class="col-50 white-text flex">
                     <div>
                         <h3 class="margin-x-10">Boolando s.r.l</h3>
-                        <a class="white-text small-text" href="">Informazioni legali</a>
-                        <a class="margin-y-10 white-text small-text" href="">Informativa sulla privacy</a>
-                        <a class="white-text small-text" href="">Diritto di recesso</a>
+                        <a class="white-text small-text" href="/About">About Us</a>
+                        <a class="margin-y-10 white-text small-text" href="#">Informativa sulla privacy</a>
+                        <a class="white-text small-text" href="/">Torna alla Home</a>
                     </div>
                 </div>
                 <div class="col-50 flex white-text justify-right">

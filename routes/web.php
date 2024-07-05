@@ -37,3 +37,28 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 })->name('Home');
+
+
+Route::get('/About', function () {
+    $header_icons = [
+        'source1' => [
+            'icon' => "https://img.icons8.com/forma-thin/24/user.png",
+            'alt' => "User",
+        ],
+        'source2' => [
+            'icon' =>
+            "https://img.icons8.com/ios/50/like--v1.png",
+            'alt' => "Heart",
+        ],
+        'source3' => [
+            'icon' =>
+            "https://img.icons8.com/ios-filled/50/shopping-bag.png",
+            'alt' =>
+            "Shopping-bag",
+        ]
+    ];
+    $data = [
+        'header_icons' => $header_icons,
+    ];
+    return view('about', $data);
+})->name('About');
