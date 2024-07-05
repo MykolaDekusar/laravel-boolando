@@ -1,3 +1,5 @@
+@use "./colors" as *;
+
 .small-image-style {
     width: 25px;
     height: 25px;
@@ -69,4 +71,66 @@ h4 {
 main {
     margin-top: 48.66px;
     padding: 50px 0;
+}
+
+// CARD SETTING
+.badges {
+    position: absolute;
+    left: 0;
+    bottom: 110px;
+    display: flex;
+
+    .sostenibilità {
+        padding: 5px 10px;
+        margin-right: 5px;
+    }
+    .discount {
+        padding: 5px 10px;
+    }
+}
+
+/* CONTENT */
+.content img {
+    width: 100%;
+}
+
+// IMG SETUP
+.img-fit {
+    object-fit: fill;
+}
+
+/* HOVER SETUP */
+.hover-img {
+    display: none;
+}
+
+.content:hover .main-img {
+    display: none;
+}
+
+.content:hover .hover-img {
+    display: inline-block;
+}
+
+/* DISCOUNTS */
+.gray-text-crossed {
+    color: $gray;
+    text-decoration: line-through;
+}
+
+/* HEART SETTINGS */
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 5px 15px;
+    font-size: 30px;
+}
+
+.heart:hover {
+    color: $red;
+}
+
+.redHeart {
+    color: $red;
 }

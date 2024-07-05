@@ -1,12 +1,9 @@
 @extends('layouts.main')
-
-
+{{-- title of the page --}}
 @section('page-title')
     HomePage
 @endsection
-
-
+{{-- main section of the page --}}
 @section('main')
-<main>
-</main>
+@include('shared.card')
 @endsection
