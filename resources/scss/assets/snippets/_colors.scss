@@ -1,9 +1,9 @@
 /* COLORS */
 $red: red;
 $white: white;
-$header-color:rgb(255, 115, 0);
-$footer-color:rgba(0, 0, 0, 0.89);
-$gray:gray;
+$header-color: rgb(255, 115, 0);
+$footer-color: rgba(0, 0, 0, 0.89);
+$gray: gray;
 .white-text {
     color: $white;
 }
@@ -22,4 +22,8 @@ $gray:gray;
 
 .white {
     background-color: $white;
+}
+
+footer {
+    background-color: $footer-color;
 }
