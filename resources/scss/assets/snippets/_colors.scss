@@ -1,0 +1,25 @@
+/* COLORS */
+$red: red;
+$white: white;
+$header-color:rgb(255, 115, 0);
+$footer-color:rgba(0, 0, 0, 0.89);
+$gray:gray;
+.white-text {
+    color: $white;
+}
+
+.red {
+    background-color: $red;
+}
+
+.red-text {
+    color: $red;
+}
+
+.green {
+    background-color: green;
+}
+
+.white {
+    background-color: $white;
+}

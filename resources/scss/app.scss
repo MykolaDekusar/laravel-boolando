@@ -1,6 +1,19 @@
 /*resources/scss/app.scss*/
 @use "~bootstrap/scss/bootstrap" as *;
+@use "./assets/snippets/reset" as *;
+@use "./assets/snippets/utilities" as *;
+@use "./assets/snippets/colors" as *;
+@use "./assets/snippets/marginsGaps" as *;
+header {
+    background-color: $header-color;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 
-body {
-    background-color: red;
+    .logo-img {
+        width: 100px;
+    }
 }
