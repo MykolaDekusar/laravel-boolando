@@ -5,6 +5,7 @@
 @use "./assets/snippets/marginsGaps" as *;
 header {
     background-color: $header-color;
+    height: 50px;
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -15,4 +16,8 @@ header {
     .logo-img {
         width: 100px;
     }
+}
+
+footer {
+    background-color: $footer-color;
 }
