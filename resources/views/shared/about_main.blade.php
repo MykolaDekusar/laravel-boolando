@@ -7,4 +7,4 @@
             <h2><a href="/">Click me if you want to get back to the main page</a></h2>
         </div>
     </div>
-  </main>
+</main>

@@ -5,5 +5,5 @@
 @endsection
 {{-- main section of the page --}}
 @section('main')
-@include('shared.card')
+    @include('shared.card')
 @endsection
